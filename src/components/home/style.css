@@ -1,0 +1,15 @@
+.link{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(66, 135, 196);
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    border:1px transparent;
+    transition: background 1s, color 1s;
+}
+.link:hover{
+    color: rgb(66, 135, 196);
+    background:#ffffff;
+    cursor: pointer;
+}

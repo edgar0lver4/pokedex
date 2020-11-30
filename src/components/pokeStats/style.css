@@ -1,0 +1,481 @@
+.stats-text{
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.sub_attack{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(248, 132, 112);
+    content: ' ';
+    margin-left: 20px;
+}
+.sub_hp{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(112, 248, 135);
+    content: ' ';
+    margin-left: 20px;
+}
+.sub_defense{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(162, 226, 255);
+    content: ' ';
+    margin-left: 20px;
+}
+.sub_special-attack{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(253, 114, 253);
+    content: ' ';
+    margin-left: 20px;
+}
+.sub_special-defense{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(140, 114, 253);
+    content: ' ';
+    margin-left: 20px;
+}
+.sub_speed{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(253, 232, 114);
+    content: ' ';
+    margin-left: 20px;
+}
+/*attak section*/
+.cont_1_attack{
+    width: 10%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_2_attack{
+    width: 20%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_3_attack{
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_4_attack{
+    width: 40%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_5_attack{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_6_attack{
+    width:60%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_7_attack{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_8_attack{
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_9_attack{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+.cont_10_attack{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(226, 34, 0);
+    content: ' ';
+}
+/*hp section*/
+.cont_1_hp{
+    width: 10%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_2_hp{
+    width: 20%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_3_hp{
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_4_hp{
+    width: 40%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_5_hp{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_6_hp{
+    width:60%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_7_hp{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_8_hp{
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_9_hp{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(49, 189, 30);
+    content: ' ';
+}
+.cont_10_hp{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(49, 189, 30);
+    content: ' ';
+}
+/*Defense*/
+.cont_1_defense{
+    width: 10%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_2_defense{
+    width: 20%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_3_defense{
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_4_defense{
+    width: 40%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_5_defense{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_6_defense{
+    width:60%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_7_defense{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_8_defense{
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_9_defense{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(12, 178, 255);
+    content: ' ';
+}
+.cont_10_defense{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(12, 178, 255);
+    content: ' ';
+}
+/* special-attack */
+.cont_1_special-attack{
+    width: 10%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_2_special-attack{
+    width: 20%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_3_special-attack{
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_4_special-attack{
+    width: 40%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_5_special-attack{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_6_special-attack{
+    width:60%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_7_special-attack{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_8_special-attack{
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_9_special-attack{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+.cont_10_special-attack{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color:rgb(130, 0, 130);
+    content: ' ';
+}
+/* Special defense */
+.cont_1_special-defense{
+    width: 10%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_2_special-defense{
+    width: 20%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_3_special-defense{
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_4_special-defense{
+    width: 40%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_5_special-defense{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_6_special-defense{
+    width:60%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_7_special-defense{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_8_special-defense{
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_9_special-defense{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+.cont_10_special-defense{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(61, 46, 128);
+    content: ' ';
+}
+/*Speed*/
+.cont_1_speed{
+    width: 10%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_2_speed{
+    width: 20%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_3_speed{
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_4_speed{
+    width: 40%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_5_speed{
+    width: 50%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_6_speed{
+    width:60%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_7_speed{
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_8_speed{
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_9_speed{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}
+.cont_10_speed{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(201, 174, 19);
+    content: ' ';
+}

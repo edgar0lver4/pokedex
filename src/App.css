@@ -36,3 +36,234 @@
     transform: rotate(360deg);
   }
 }
+
+
+.cortina{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  top:0px;
+  left: 0px;
+  opacity: 0.3;
+  z-index:100;
+}
+.pokeDetail{
+  width: 100%;
+  height: 100%;
+}
+.modal-container{
+  content: ' ';
+  z-index: 101;
+  width: 25%;
+  height: 80%;
+  min-height: 600px;
+  min-width: 450px;
+  background-color: #ffffff;
+  position: fixed;
+  top: calc((100% - 80%)/2);
+  left: calc((100% - 25%)/2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-header{
+  background: linear-gradient(111deg, #5be3f2, #29bfd0, #cb77f2, #db63f5, #c72de8, #900eac);
+  background-size: 1200% 1200%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  -o-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+  width: 100%;
+  height: 40%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-body{
+  width: 100%;
+  height: 60%;
+}
+.modal-imagen{
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.header-number{
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+}
+.header-number > span{
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0px 3px #000000;
+}
+.header-name-pokemon{
+  text-transform: uppercase;
+  color:#ffffff;
+}
+.header-slots{
+  display: flex;
+  flex-direction: row;
+}
+.grass{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #008204;
+  border-radius: 5px;
+}
+.poison{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #8d0071;
+  border-radius: 5px;
+}
+.normal{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+}
+.flying{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #f6f8f8;
+  background-color: #00aeed;
+  border-radius: 5px;
+}
+.bug{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #f6f8f8;
+  background-color: #410fb6;
+  border-radius: 5px;
+}
+.electric{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #101010;
+  background-color: #f5ee2f;
+  border-radius: 5px;
+}
+.ground{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #a5630069;
+  border-radius: 5px;
+}
+.fire{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f30000cc;
+  border-radius: 5px;
+}
+.fairy{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(0deg,#33ff00cc 0%, #13a500 100%);
+  border-radius: 5px;
+}
+.water,.ice{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #3fc2fffc;
+  border-radius: 5px;
+}
+.ghost{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ef3ffffc;
+  border-radius: 5px;
+}
+.rock{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #6b6b6bfc;
+  border-radius: 5px;
+}
+.psychic{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #fbfd6694;
+  border-radius: 5px;
+}
+.steel{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(0deg,#bababacc 0%, #555555 100%);
+  border-radius: 5px;
+}
+.fighting{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(0deg,#ae1414cc 0%, #881212 100%);
+  border-radius: 5px;
+}
+.dark{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 5px;
+}
+.dragon{
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #fc940c;
+  border-radius: 5px;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}

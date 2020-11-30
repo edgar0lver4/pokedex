@@ -1,0 +1,20 @@
+.target{
+    width: 180px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #ffffff;
+    transition: background 1s,color 1s;
+}
+.target:hover{
+    cursor: pointer;
+    background-color: #026dd1;
+    color: #ffffff;
+}
+.imagenPokemon{
+    width: 80px;
+    height: 80px;
+}
